@@ -1,15 +1,17 @@
+
+
 .characterSing{
- display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-template-columns: 2;
 }
 .character :nth-child(1){
     border-radius: 50%;
-    transition: all 0.5s ease-in;
+   
     width: 80%;
 }
 
-.character :nth-child(1):hover{
-  transform: rotate(1turn);
-}
 
 .character :nth-child(2){
   color: white;

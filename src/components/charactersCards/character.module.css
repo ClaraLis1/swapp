@@ -11,9 +11,7 @@
     width: 80%;
 }
 
-.character :nth-child(1):hover{
-  transform: rotate(1turn);
-}
+
 
 .character :nth-child(2){
   color: white;

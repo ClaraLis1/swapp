@@ -10,14 +10,14 @@ import { Link, useParams } from "react-router-dom"
 
 
 function Home() {
-  const {name} = useParams()
+
   const [state, dispatch]  = useContext(dataContext)
   const [endpoint, setEndpoint] = useState("https://swapi.dev/api/people/ ")
   const[info, setInfo] = useState([{}])
   const[dataCh, setDataCh] = useState({})
   const[characters, setCharacters] = useState([])
   
-  console.log(name);
+ 
   useEffect(() =>{    
     fetch(`https://swapi.dev/api/films/`)
     .then((response) =>response.json())
@@ -26,7 +26,7 @@ function Home() {
     })
 }, [])
 
-console.log(info);
+
 useEffect(() =>{    
   if(endpoint!=null){
   fetch(endpoint)

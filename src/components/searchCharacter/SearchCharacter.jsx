@@ -23,7 +23,7 @@ const SearchCharacter = () => {
     <div>
         
         <form onSubmit={handleSubmit}>                
-            <input type="text" name="nombre"/>
+           <span>character</span> <input type="text" name="nombre"/>
             <input type='submit' value='buscar' />
         </form>
         

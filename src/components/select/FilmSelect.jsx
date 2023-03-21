@@ -13,7 +13,7 @@ export const FilmSelect = ({name, label, type = "text", dataType, options} ) => 
     
   return (
     <div className="input-contenedor">
-        <label htmlFor={name}>{label}</label>
+        <label htmlFor={name}>Film</label>
         <select                   
             value={selectedLocal}
             name={name}

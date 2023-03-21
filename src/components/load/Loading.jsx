@@ -2,7 +2,10 @@ import React from 'react'
 
 const Loading = () => {
   return (
-    <div></div>
+    <div>
+        <h3>Loading...</h3>
+        {/* <img src="" alt="" srcset="" /> */}
+    </div>
   )
 }
 

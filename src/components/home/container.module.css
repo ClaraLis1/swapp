@@ -1,42 +1,14 @@
 .container {
   display: grid;
   column-gap: 2rem;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   margin: 1rem auto;
   width: 80%; 
   color: #c8c8c8;
+  font-family:  sans-serif;
 }
 
-.buttonbar {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-}
-.buttonbar button {
-  font-family: 'Star Wars', sans-serif;
-  background-color: #FFE300;
-  border-radius: 5px;
-  border: none;
-  color: black;
-  font-weight: 600;
-  padding: 1rem;
-  margin-top: 1rem;
-  transition: all 0.3s ease-in-out;
-  width: 150px;
-}
-
-
-button:hover{
-  cursor: pointer;
- 
-  /* transform: scale(1.1); */
-  
-}
-button:disabled{
-  cursor: default;
-   background-color: grey;  
-}
 
 @media screen and (max-width: 375px){
   .container{
